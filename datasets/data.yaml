@@ -1,0 +1,84 @@
+btp::modules:
+  alignment:
+    dirs:
+      - 'alignment'
+      - 'alignment/input'
+      - 'alignment/bwaIndex'
+      - 'alignment/precomputed'
+    data:
+      human_g1k_v37.dict: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/bwaIndex'
+        targets: 
+          - 'alignment/bwaIndex/human_g1k_v37.dict'
+      human_g1k_v37.fasta.amb: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/bwaIndex'
+        targets: 
+          - 'alignment/bwaIndex/human_g1k_v37.fasta.amb'
+      human_g1k_v37.fasta.ann: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/bwaIndex'
+        targets: 
+          - 'alignment/bwaIndex/human_g1k_v37.fasta.ann'
+      human_g1k_v37.fasta.bwt: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/bwaIndex'
+        targets: 
+          - 'alignment/bwaIndex/human_g1k_v37.fasta.bwt'
+      human_g1k_v37.fasta.fai: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/bwaIndex'
+        targets: 
+          - 'alignment/bwaIndex/human_g1k_v37.fasta.fai'
+      human_g1k_v37.fasta.pac: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/bwaIndex'
+        targets: 
+          - 'alignment/bwaIndex/human_g1k_v37.fasta.pac'
+      human_g1k_v37.fasta.sa: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/bwaIndex'
+        targets: 
+          - 'alignment/bwaIndex/human_g1k_v37.fasta.sa'
+      SM_Blood_ID_ERR059356.subset_R1.fastq.gz: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/input'
+        targets: 
+          - 'alignment/input/SM_Blood_ID_ERR059356.subset_R1.fastq.gz'
+      SM_Blood_ID_ERR059356.subset_R1.fastq.gz.md5.txt: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/input'
+        targets: 
+          - 'alignment/input/SM_Blood_ID_ERR059356.subset_R1.fastq.gz.md5.txt'
+      SM_Blood_ID_ERR059356.subset_R2.fastq.gz: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/input'
+        targets: 
+          - 'alignment/input/SM_Blood_ID_ERR059356.subset_R2.fastq.gz'
+      SM_Blood_ID_ERR059356.subset_R2.fastq.gz.md5.txt: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/input'
+        targets: 
+          - 'alignment/input/SM_Blood_ID_ERR059356.subset_R2.fastq.gz.md5.txt'
+      SM_Blood_ID_ERR059356.subset.bam: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/precomputed'
+        targets: 
+          - 'alignment/precomputed/SM_Blood_ID_ERR059356.subset.bam'
+      SM_Blood_ID_ERR059356.subset.bam.md5: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/precomputed'
+        targets: 
+          - 'alignment/precomputed/SM_Blood_ID_ERR059356.subset.bam.md5'
+      SM_Blood_ID_ERR059356.subset.sam: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/precomputed'
+        targets: 
+          - 'alignment/precomputed/SM_Blood_ID_ERR059356.subset.sam'
+      SM_Blood_ID_ERR059356.subset.sam.md5: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/precomputed'
+        targets: 
+          - 'alignment/precomputed/SM_Blood_ID_ERR059356.subset.sam.md5'
+      SM_Blood_ID_ERR059356.subset.sorted.bam: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/precomputed'
+        targets: 
+          - 'alignment/precomputed/SM_Blood_ID_ERR059356.subset.sorted.bam'
+      SM_Blood_ID_ERR059356.subset.sorted.bam.bai: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/precomputed'
+        targets: 
+          - 'alignment/precomputed/SM_Blood_ID_ERR059356.subset.sorted.bam.bai'
+      SM_Blood_ID_ERR059356.subset.sorted.bam.bai.md5: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/precomputed'
+        targets: 
+          - 'alignment/precomputed/SM_Blood_ID_ERR059356.subset.sorted.bam.bai.md5'
+      SM_Blood_ID_ERR059356.subset.sorted.bam.md5: 
+        source: 'https://swift.rc.nectar.org.au:8888/v1/AUTH_d57d0879288840e199bb1a49ae012c78/CancerDataAlignment/precomputed'
+        targets: 
+          - 'alignment/precomputed/SM_Blood_ID_ERR059356.subset.sorted.bam.md5'
